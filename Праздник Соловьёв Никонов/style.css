@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 90px;
+    width: 1920px;
+    background-color: #ffffff;
+}
+header li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 36px;
+    font-size: 25px;
+}
+.container{
+    width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container img{
+    width: 250px;
+    height: 150px;
+    margin-top: 19px;
+}
+.menu{
+    display: flex;
+    margin-top: 38px;
+}
+.otzuv img{
+    width: 250px;
+    height: 150px;
+}
+.banner{
+    position: relative;
+}
+
+.banner_text{
+    position: absolute;
+    top: 0px;
+    width: 700px;
+    height: 500px;
+    background: rgba(56, 51, 46, 0.51);  
+}
+
+.name{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    color: #fff;
+    width: 433px;
+    margin: 167px auto 0;
+}
+
+.name2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+    color: #ffffff;
+    margin-top: 17px;
+}
+.akzii img{
+    width: 400px;
+    height: 200px;
+}
